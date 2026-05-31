@@ -35,7 +35,7 @@ Real-world datasets are rarely clean. The raw Excel sheets presented several cla
 
 ```text
 ├── world_cup_results.xlsx       # Raw source dataset (3 distinct sheets)
-├── world_cup_analytics.ipynb        # Core Python data cleaning & pipeline script
+├── world_cup_analytics.py           # Core Python data cleaning & pipeline script
 ├── WorldCupMatches_cleaned.csv      # Exported, production-ready match details
 ├── WorldCups_summary_cleaned.csv    # Exported, production-ready summary metrics
 ├── 1_goals_trend_over_time.png      # Plot 1: Goal scoring trends line chart
